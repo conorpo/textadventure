@@ -1,0 +1,76 @@
+.speech {
+  font-weight: 700;
+  text-decoration: underline;
+  font-family: Garamond;
+}
+.resultsArea {
+  background-color: #FFFFFF;
+  border-width: 1px;
+  border-color: grey;
+  border-style: solid;
+  height: 85vh;
+  width: 100%;
+  margin-top:2vh ;
+  padding-left: 2%;
+  margin-right:2%;
+  overflow: scroll;
+}
+input {
+ background-image: url('https://vignette.wikia.nocookie.net/assassinscreed/images/8/8b/Old_paper.jpg/revision/latest?cb=20120728131604');
+
+ background-size: cover;
+  color:grey;
+  float: left;
+  border-color:yellow;
+  width: 50%;
+  height:9vh;
+  font-size: 150%;
+  font-family: "Garamond";
+  font-weight: 700;
+  padding-left: 1.5%;
+}
+.button {
+  background-image: url('https://vignette.wikia.nocookie.net/assassinscreed/images/8/8b/Old_paper.jpg/revision/latest?cb=20120728131604');
+  float: left;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  border-radius: 5px;
+  border: none;
+  color: #000000;
+  text-align: center;
+  font-size: 28px;
+  padding: 12px;
+  width: 160px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-top:0;
+  font-weight: bold;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.resultsArea{
+  border-radius: 8px;
+}
